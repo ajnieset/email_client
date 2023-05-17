@@ -1,0 +1,18 @@
+[project]
+name = "email_client"
+version = "0.1.0"
+description = "A small email client package with flexible backends"
+authors = [
+  { name = "Austin Nieset", email = "ajnieset@gmail.com" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/ajnieset/email_client"
+"Bug Tracker" = "https://github.com/ajnieset/email_client/issues"
