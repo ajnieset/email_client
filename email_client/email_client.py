@@ -1,6 +1,6 @@
-class EmailClient:
-    def __init__(self) -> None:
-        pass
+from abc import ABC, abstractmethod
 
-    def send(self):
+class EmailClient(ABC):
+    @abstractmethod
+    def send(to_email: str):
         pass

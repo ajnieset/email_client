@@ -1,8 +1,7 @@
 import sendgrid
 from sendgrid.helpers.mail import Email, To, Content, Mail
 
-from email_client.email_client import EmailClient
-
+from email_client import EmailClient
 
 class SendgridClient(EmailClient):
     def __init__(self, api_key: str, domain: str = "example.com"):
